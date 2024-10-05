@@ -1,0 +1,881 @@
+/* mobiles */
+@media (max-width: 768px) {
+  .start {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .signup {
+    margin-top: 1em;
+  }
+
+  .signup button {
+    width: 100%;
+  }
+}
+
+/* tab */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .start {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin-left: 0;
+  }
+
+  .signup {
+    margin-top: 1em;
+  }
+
+  .signup button {
+    width: auto;
+  }
+}
+
+/* laptop */
+@media (min-width: 1025px) {
+  .start {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav ul li {
+    margin-left: 4em;
+  }
+
+  .signup button {
+    width: 176px;
+  }
+}
+
+
+
+
+/* Your existing CSS styles */
+
+/* Media query for screen sizes below 1200px (e.g. laptops and desktops) */
+@media only screen and (max-width: 1200px) {
+  #Trade {
+    flex-direction: column; /* Change the flex direction to column on smaller screens */
+  }
+  .trade-pragrph {
+    width: 100%; /* Make the trade paragraph take up the full width on smaller screens */
+  }
+  .article-pic1 {
+    flex-direction: column; /* Change the flex direction to column on smaller screens */
+  }
+  .first-trade-pic {
+    width: 100%; /* Make the first trade picture take up the full width on smaller screens */
+  }
+  .first-trade-pic img {
+    width: 100%; /* Make the image take up the full width on smaller screens */
+  }
+  .butn-list {
+    flex-direction: column; /* Change the flex direction to column on smaller screens */
+  }
+  .list-trade {
+    flex-wrap: nowrap; 
+    flex-direction: column;
+    width: 100%;
+    text-align: center;/* Make the list items wrap on smaller screens */
+  }
+  .list-trade .li {
+    width: 50%; /* Make the list items take up half the width on smaller screens */
+  }
+  .div-ylw {
+    position: relative; /* Change the position to relative on smaller screens */
+    top: 0; /* Reset the top position on smaller screens */
+    left: 0; /* Reset the left position on smaller screens */
+    width: 100%; /* Make the div take up the full width on smaller screens */
+    height: auto; /* Make the div height auto on smaller screens */
+  }
+  .div-ylw img {
+    width: 100%; /* Make the image take up the full width on smaller screens */
+  }
+  .div-black img {
+    position: relative; /* Change the position to relative on smaller screens */
+    top: 0; /* Reset the top position on smaller screens */
+    left: 0; /* Reset the left position on smaller screens */
+    width: 50px; /* Make the image smaller on smaller screens */
+  }
+}
+
+/* Media query for screen sizes below 768px (e.g. tablets and mobile devices) */
+@media only screen and (max-width: 768px) {
+  #Trade {
+    padding-top: 2rem; /* Reduce the padding top on smaller screens */
+  }
+  .trade-pragrph {
+    font-size: 18px; /* Reduce the font size on smaller screens */
+  }
+  .article-pic1 {
+    flex-direction: column; /* Change the flex direction to column on smaller screens */
+  }
+  .first-trade-pic {
+    width: 100%; /* Make the first trade picture take up the full width on smaller screens */
+  }
+  .first-trade-pic img {
+    width: 100%; /* Make the image take up the full width on smaller screens */
+  }
+  .butn-list {
+    flex-direction: column; /* Change the flex direction to column on smaller screens */
+  }
+  .list-trade {
+    flex-wrap: nowrap; 
+    flex-direction: column;
+    width: 100%;
+    text-align: center;/* Make the list items wrap on smaller screens */
+  }
+  .list-trade .li {
+    width: 100%; /* Make the list items take up the full width on smaller screens */
+  }
+  .div-ylw {
+    padding: 1rem; /* Reduce the padding on smaller screens */
+  }
+  .div-ylw img {
+    width: 100%; /* Make the image take up the full width on smaller screens */
+  }
+  .div-black img {
+    width: 30px; /* Make the image smaller on smaller screens */
+  }
+}
+
+
+
+
+
+
+/* 
+@media (max-width: 1200px) {
+  .content-home {
+    width: 100%;  
+    margin-left: 0; 
+  }
+
+
+  .start {
+    flex-direction: column; 
+  }
+
+  nav ul {
+    flex-direction: column; 
+  }
+
+  #Trade {
+    flex-direction: column; 
+  }
+  .content-home h1 {
+
+    padding-top: 0;
+}
+
+
+  .butn1, .butn2, .butn3 {
+    width: 100%; 
+    margin: 0.5em 0; 
+  }
+
+  #Shop h2, #Shop p {
+    padding-left: 1em; 
+  }
+
+  .content-left-woc h2 {
+    font-size: 2rem;
+  }
+
+  .footer {
+    flex-direction: column; 
+  }
+  .content-home h1{
+font-size: 1.5625rem;
+    padding-top: 0;
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.5em 0; 
+  }
+
+  .home {
+    height: 100vh; 
+  }
+
+  .content-home {
+    padding: 0 1em; 
+  }
+
+  nav ul li {
+    margin-left: 1em; 
+  }
+
+  .woc-saybody {
+    width: 90%; 
+  }
+
+  .foot-bottom {
+    flex-direction: column; 
+  }
+  .content-home h1{
+    font-size: 1.5625rem;
+
+    padding-top: 0;
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+
+}
+
+@media (max-width: 480px) {
+  .start {
+    justify-content: center; 
+  }
+  .home {
+    height: 100vh; 
+  }
+  nav ul li {
+    margin-left: 0;
+  }
+
+  .content-left-woc h2, .content-left-woc p {
+    font-size: 1.5rem;   
+  }
+
+  .butn1, .butn2, .butn3 {
+    width: 100%; 
+  }
+  .content-home h1{
+    font-size: 1.5625rem;
+    padding-top: 0;
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+}
+
+
+@media (max-width: 360px) {
+  .start {
+    justify-content: center; 
+  }
+  .home {
+    height: 100vh; 
+  }
+  nav ul li {
+    margin-left: 0; 
+  }
+
+  .content-left-woc h2, .content-left-woc p {
+    font-size: 1.5rem; 
+  }
+
+  .butn1, .butn2, .butn3 {
+    width: 100%; 
+  }
+  .content-home h1{
+    font-size:1.5625rem ;
+    padding-top: 0;
+    
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .glop {
+    flex-wrap: wrap;
+  }
+  .card-kit {
+    width: 100%;
+    height: auto;
+  }
+  .card-body {
+    height: auto;
+  }
+}
+
+/* للأجهزة
+@media (min-width: 601px) and (max-width: 1024px) {
+  .glop {
+    flex-wrap: wrap;
+  }
+  .card-kit {
+    width: 48%;
+    height: auto;
+  }
+  .card-body {
+    height: auto;
+  }
+}
+
+/* للأجهزة 
+@media (min-width: 1025px) {
+  .glop {
+    flex-wrap: nowrap;
+  }
+  .card-kit {
+    width: 32%;
+    height: 30.625rem;
+  }
+  .card-body {
+    height: 13.375rem;
+  }
+}
+
+
+
+
+/* للأجهزة
+@media (max-width: 600px) {
+  #replace {
+    height: 31.25rem;
+  }
+  #replace .replcement {
+    width: 90%;
+    height:21.875rem;
+    padding: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+  }
+  #replace .replcement h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  #replace .replcement p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: auto;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  #replace {
+    height: 31.25rem;
+    
+  }
+  #replace .replcement {
+    width: 80%;
+    height: 21.875rem;
+    padding: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
+  }
+  #replace .replcement h2 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+  #replace .replcement p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: auto;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  #replace {
+    width: 100%;
+    height: 31.5625rem;
+  }
+  #replace .replcement {
+    width: 53.625rem;
+    height: 19.4375rem;
+    padding: 2.75rem;
+    left: 21.25rem;
+    top: 5.625rem;
+  }
+  #replace .replcement h2 {
+    font-size: 2.625rem;
+    line-height: 3.1769rem;
+  }
+  #replace .replcement p {
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    width: 48.125rem;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+  .electric {
+    padding-top: 2rem;
+    background-color: #FFBB1C0D;
+  }
+
+  .content-electric {
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .content-electric h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .content-electric p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-right: 0;
+  }
+
+  .slr {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .electric-card {
+    width: 100%;
+    padding: 0;
+  }
+
+  .table1, .table2 {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .crd {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    gap: 1.5rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .crd img {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .crd-category p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+  }
+}
+
+
+
+
+@media (max-width: 900px) {
+  .content-electric {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-electric h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .content-electric p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .slr {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .electric-card {
+    width: 100%;
+  }
+
+  .table1, .table2 {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .crd {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    gap: 2rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .crd img {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-top: 1.5rem;
+  }
+
+  .crd-category p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+}
+  
+
+
+@media (max-width: 600px) {
+  .val-content h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .val-content .praph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .values {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .vlu {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    gap: 1.5rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .value-img img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .vlu-category h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .vlu-category p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+  }
+
+@media (max-width: 900px) {
+  .val-content h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .val-content .praph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .values {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .vlu {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    gap: 2rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .value-img img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .vlu-category h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-top: 1rem;
+  }
+
+  .vlu-category p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+  .left-woc {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-left-woc {
+    width: 100%;
+  }
+
+  .content-left-woc h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: auto;
+  }
+
+  .content-left-woc p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: auto;
+  }
+
+  .woc {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .woc-saybody {
+    width: 100%;
+    height: 93.75rem;
+    padding: 0rem;
+  
+  }
+  .woc-foot{
+    padding: top 160px;
+    padding-right: 3.125rem;
+  
+  
+  }
+
+
+  .content-p {
+    font-size: .875rem;
+    line-height: .875rem;
+    width: 21.875rem;
+  }
+
+  .foot1 img {
+    width: 3rem;
+    height: 3rem;
+  
+  }
+
+  .p-dot p {
+    font-size: 0.875rem;
+  }
+
+  .p-dot img {
+    height: 0.5rem;
+  }
+  
+  .frame img{
+    margin-top: 9.375rem;
+    height: 6.25rem;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+  .left-woc {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-left-woc {
+    width: 80%;
+  }
+
+  .content-left-woc h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: auto;
+  }
+
+  .content-left-woc p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: auto;
+  }
+
+  .woc-saybody {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .content-p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: auto;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 2rem 1rem; 
+    height: auto; 
+  }
+
+  .foot {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .list-foot {
+    flex-direction: column; 
+    gap: 1rem; 
+    padding: 1rem 0; 
+  }
+
+  .foot-right {
+    text-align: center; 
+    padding: 1rem 0; 
+  }
+
+  .foot-right input {
+    width: 100%; 
+    margin-bottom: 1rem;
+  }
+
+  .foot-right .foot-sub {
+    width: 100%; 
+  }
+
+  .foot-bottom {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .list-2 {
+    flex-direction: column; 
+    gap: 0.5rem;
+  }
+
+  .foot-bottom p {
+    padding-top: 1rem;  
+  }
+}
+
+
+@media (max-width: 900px) {
+  .footer {
+    padding: 2.5rem 1.5
+  }
+
+  .foot {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .list-foot {
+    flex-direction: column; 
+    gap: 1.5rem;
+    padding: 1.5re
+  }
+
+  .foot-right {
+    text-align: center; 
+  }
+
+  .foot-right input {
+    width: 100%; 
+  }
+
+  .foot-right .foot-sub {
+    width: 9.375rem; 
+    position: absolute;
+    left: 14.375rem;
+  }
+
+  .foot-bottom {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+      }
+
+  .list-2 {
+    flex-direction: column; 
+    gap: 0.5rem; 
+  }
+}
+
+
+
+
+
+
+
+
+
+ */
